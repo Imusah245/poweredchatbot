@@ -7,7 +7,6 @@ echo "🚀 Starting installation process..."
 
 # Install frontend dependencies
 echo "📦 Installing frontend dependencies..."
-cd frontend
 npm install
 cd ..
 

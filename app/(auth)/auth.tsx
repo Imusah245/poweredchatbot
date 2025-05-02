@@ -20,7 +20,7 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
 } from "firebase/auth";
-import { authInstance, db } from "@/firebaseConfig";
+import { authinstance, db } from "../../firebaseConfig";
 import { useRouter } from "expo-router";
 import { useSetUser } from "@/context/UserContext";
 import { doc, setDoc } from "firebase/firestore";
